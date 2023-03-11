@@ -2,7 +2,7 @@
 <hr>
 
 ## TODO
-* As histórias de usuário remanescentes;
+* ~~As histórias de usuário remanescentes;~~ :white_check_mark:
 
 <hr>
 
@@ -39,9 +39,9 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 ## **Timer:**
 **História de usuário nº 11:** quando eu clico no elemento com id reset, qualquer temporizador em execução deve ser parado. O valor dentro de id="break-length" deve retornar 5, o valor dentro de id="session-length" deve retornar 25, e o elemento com id="time-left" deve ser redefinido para o seu estado padrão. :white_check_mark:
 
-**História de usuário nº 12:** quando eu clico no elemento com o id break-decrement, o valor dentro de id="break-length" decrementa 1, e eu consigo ver o valor atualizado.
+**História de usuário nº 12:** quando eu clico no elemento com o id break-decrement, o valor dentro de id="break-length" decrementa 1, e eu consigo ver o valor atualizado. :white_check_mark:
 
-**História de usuário nº 13:** quando eu clico no elemento com id break-increment, o valor dentro de id="break-length" incrementa 1, e eu consigo ver o valor atualizado.
+**História de usuário nº 13:** quando eu clico no elemento com id break-increment, o valor dentro de id="break-length" incrementa 1, e eu consigo ver o valor atualizado. :white_check_mark:
 
 **História de usuário nº 14:** quando eu clico no elemento com id session-decrement, o valor dentro de id="session-length" decrementa 1, e eu consigo ver o valor atualizado. :white_check_mark:
 
@@ -55,27 +55,27 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 
 **História de usuário nº 19:** se o temporizador estiver em execução, o elemento com id time-left deve exibir o tempo restante no formato mm:ss (decrementando 1 e atualizando a saída a cada 1000ms). :white_check_mark:
 
-**História de usuário nº 20:** se o timer estiver em execução e eu clicar no elemento com id="start_stop", a contagem regressiva deve pausar.
+**História de usuário nº 20:** se o timer estiver em execução e eu clicar no elemento com id="start_stop", a contagem regressiva deve pausar. :white_check_mark:
 
 **História de usuário nº 21:** se o temporizador estiver pausado e eu clicar no elemento com id="start_stop", a contagem regressiva deve continuar rodando a partir do ponto no qual foi pausado. :white_check_mark:
 
-**História de usuário nº 22:** quando a contagem regressiva de sessão chegar a zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), e uma nova contagem regressiva iniciar, o elemento com id timer-label deve exibir uma string indicando que um intervalo foi iniciado.
+**História de usuário nº 22:** quando a contagem regressiva de sessão chegar a zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), e uma nova contagem regressiva iniciar, o elemento com id timer-label deve exibir uma string indicando que um intervalo foi iniciado. :white_check_mark:
 
-**História de usuário nº 23:** quando a contagem regressiva de sessão alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), uma nova contagem regressiva de intervalo deve iniciar, contando regressivamente a partir do valor atualmente exibido no elemento id="break-length".
+**História de usuário nº 23:** quando a contagem regressiva de sessão alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), uma nova contagem regressiva de intervalo deve iniciar, contando regressivamente a partir do valor atualmente exibido no elemento id="break-length". :white_check_mark:
 
-**História de usuário nº 24:** quando a contagem regressiva de intervalo alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00) e uma nova contagem regressiva iniciar, o elemento com o id timer-label deve exibir a string indicando que uma sessão foi iniciada.
+**História de usuário nº 24:** quando a contagem regressiva de intervalo alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00) e uma nova contagem regressiva iniciar, o elemento com o id timer-label deve exibir a string indicando que uma sessão foi iniciada. :white_check_mark:
 
-**História de usuário nº 25:** quando a contagem regressiva de intervalo alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), uma nova contagem regressiva de sessão deve iniciar, contando regressivamente a partir do valor atualmente exibido no elemento com id="session-length".
+**História de usuário nº 25:** quando a contagem regressiva de intervalo alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), uma nova contagem regressiva de sessão deve iniciar, contando regressivamente a partir do valor atualmente exibido no elemento com id="session-length". :white_check_mark:
 
 <br>
 
 ## **Audio:**
 
-**História de usuário nº 26:** quando uma contagem regressiva alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), um som indicando que o tempo acabou deve ser reproduzido. Isso deve utilizar uma tag HTML5 audio e ter um id correspondente a id="beep".
+**História de usuário nº 26:** quando uma contagem regressiva alcançar zero (OBSERVAÇÃO: o temporizador DEVE alcançar 00:00), um som indicando que o tempo acabou deve ser reproduzido. Isso deve utilizar uma tag HTML5 audio e ter um id correspondente a id="beep". :white_check_mark:
 
-**História de usuário nº 27:** o elemento audio com id="beep" deve ter 1 segundo ou mais de duração.
+**História de usuário nº 27:** o elemento audio com id="beep" deve ter 1 segundo ou mais de duração. :white_check_mark:
 
-**História de usuário nº 28:** o elemento audio com id beep deve parar de reproduzir e ser rebobinado para começar quando o elemento com o id reset for clicado.
+**História de usuário nº 28:** o elemento audio com id beep deve parar de reproduzir e ser rebobinado para começar quando o elemento com o id reset for clicado. :white_check_mark:
 
 ## Tecnologias utilizadas no projeto
 * HTML
